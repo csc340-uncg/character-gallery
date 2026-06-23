@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Details - Star Wars Character Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-lg">
+            <a class="navbar-brand fw-bold" href="index.html"> Star Wars Gallery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="details.html">Details</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="new-character-form.html">Add a Character</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow-1">
+        <div class="container-lg py-5">
+            <div class="character-details">
+                <a href="index.html" class="btn btn-outline-secondary mb-4">&larr; Back to Gallery</a>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mb-4">
+                            <img src="images/TheMandalorian.jpg" class="img-fluid rounded shadow" alt="Din Djarin">
+                        </div>
+                        <div class="card">
+                            <div class="card-header bg-danger text-white"><strong>Quick Info</strong></div>
+
+                            <div class="card-body">
+                                <h1 class="mb-2">Din Djarin</h1>
+                                <p class="lead text-muted mb-4">The Mandalorian in beskar armor, protector of Grogu and
+                                    skilled
+                                    warrior.</p>
+                                <p class="mb-2"><strong>Universe:</strong><br>Star Wars</p>
+                                <p class="mb-2"><strong>Role:</strong><br><span class="badge bg-danger">Bounty
+                                        Hunter</span></p>
+                                <p class="mb-2"><strong>First Appearance:</strong><br>The Mandalorian (November 2019)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+                        <h2 class="mt-4 mb-3">Backstory</h2>
+                        <p>Din Djarin is a lone bounty hunter working in the Outer Reaches of the galaxy. After
+                            encountering Grogu, a Force-sensitive child, he takes on the responsibility of protecting
+                            the young one while seeking to find his people. His journey transforms him from a solitary
+                            mercenary to a dedicated protector and father figure.</p>
+
+                        <h2 class="mt-4 mb-3">Personality</h2>
+                        <p>Professional, stoic, and headstrong, Din hides his face behind his Mandalorian helmet.
+                            Beneath his stern exterior lies a compassionate warrior with strong moral convictions,
+                            particularly regarding the protection of children and the weak. He values the Mandalorian
+                            code and honor above all else.</p>
+
+
+                    </div>
+                </div>
+
+                <div class="text-center mt-5">
+                    <a href="index.html" class="btn btn-danger btn-lg">View All Heroes</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p class="mb-0">&copy; 2026 Star Wars Character Gallery. Created as an educational project.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

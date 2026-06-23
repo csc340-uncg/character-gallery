@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Star Wars Character Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-lg">
+            <a class="navbar-brand fw-bold" href="index.html">Star Wars Gallery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="details.html">Details</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="new-character-form.html">Add a Character</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow-1">
+        <div class="container-lg py-5">
+            <div class="page-header text-center mb-5 pb-4 border-bottom">
+                <h1 class="display-4 fw-bold">About This Gallery</h1>
+                <p class="lead text-muted">Learn more about our Star Wars character collection.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 mb-4 mb-lg-0">
+                    <h2>Welcome to the Star Wars Character Gallery</h2>
+                    <p>
+                        The Star Wars Character Gallery showcases iconic characters from Star Wars: The Mandalorian and
+                        The Book of Boba Fett.
+                    </p>
+
+                    <h2>Data & Attribution</h2>
+                    <p>
+                        The characters featured in this gallery are from the Star Wars universe, specifically from The
+                        Mandalorian and The Book of Boba Fett series.
+                        All character descriptions and abilities are based on their appearances in these officially
+                        licensed Star Wars productions.
+                        Images are sourced from public stock photo services for demonstration purposes.
+                    </p>
+
+
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="mb-4">
+                        <img src="images/lego.jpg" class="img-fluid rounded shadow" alt="Star Wars characters">
+                        <p class="text-muted small text-center mt-2">Characters from The Mandalorian and The Book of
+                            Boba Fett in lego</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-dark text-white p-5 rounded mt-5 text-center">
+                <a href="index.html" class="btn btn-danger btn-lg">View Gallery</a>
+            </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p class="mb-0">&copy; 2026 Star Wars Character Gallery.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
